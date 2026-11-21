@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demetech Websphere | Start Your Website Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <!-- Brand Header -->
+            <div class="brand">
+                <span class="logo-dot"></span>
+                <span class="brand-name">DEMETECH WEBSPHERE</span>
+            </div>
+
+            <span class="badge">● Accepting New Projects</span>
+            
+            <h1>Request a Website </h1>
+            <p class="subtitle">
+                Fill in your project details below and <strong>Demetech Websphere</strong> will get back to you shortly with a custom plan.
+            </p>
+
+            <!-- Web3Forms Direct Form -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="inquiry-form">
+                
+                <!-- Your Web3Forms Access Key -->
+                <input type="hidden" name="access_key" value="4d4ad0ef-04e0-4eed-95bc-3afe21d0f086">
+                
+                <!-- Custom Email Subject Line -->
+                <input type="hidden" name="subject" value="New Website Inquiry - Demetech Websphere">
+
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name"  required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email"  required>
+                </div>
+
+                <div class="form-group">
+                    <label for="whatsapp">WhatsApp / Phone Number *</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="website_type">Type of Website Needed *</label>
+                    <select id="website_type" name="website_type" required>
+                        <option value="" disabled selected>Select an option...</option>
+                        <option value="Business / Corporate Website">Business / Corporate Website</option>
+                        <option value="E-Commerce / Online Store">E-Commerce / Online Store</option>
+                        <option value="Portfolio / Personal Brand">Portfolio / Personal Brand</option>
+                        <option value="Landing Page">Landing Page</option>
+                        <option value="Website Redesign">Website Redesign</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Project Details *</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your business, features you need, or share links to websites you like..." required></textarea>
+                </div>
+
+                <!-- Anti-Spam Honeypot -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button type="submit" class="cta-button">
+                    Submit Project Details →
+                </button>
+            </form>
+
+            <p class="note">We typically respond within a few hours via email or WhatsApp.</p>
+
+            <div class="footer">
+                <p>© 2026 Demetech Websphere. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
